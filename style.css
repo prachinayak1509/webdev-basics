@@ -1,0 +1,15 @@
+span{
+    height:50px;
+    width: 45px;
+    background-color: #00ff00;
+}
+div{
+    height: 100px;
+    width: 45%;
+    background-color: blueviolet;
+}
+p{
+    height:200px;
+    width: 100px;
+    background-color: darkgreen;
+}
