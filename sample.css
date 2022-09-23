@@ -1,0 +1,13 @@
+h1{
+    background-color: chocolate;
+    color: black;
+    width: 50%;
+}
+div{
+    display: block;
+    background-color: darkgoldenrod;
+    width:50%;
+}
+h2{
+    background-color: brown;
+}
