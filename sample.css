@@ -11,3 +11,6 @@ div{
 h2{
     background-color: brown;
 }
+ul{
+    list-style-type: square;
+}

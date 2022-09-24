@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+}
+ol{
+    list-style-type: upper-roman;
+    color: darkolivegreen;
+}
+ul{
+    list-style-type:square;
+    color: darkolivegreen;
+}
+div{
+    display: inline-block;
+}
