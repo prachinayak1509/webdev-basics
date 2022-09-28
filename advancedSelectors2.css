@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+    font-size: 45px;
+}
+a[href*=".org"]{
+    background:brown;
+}
+a[href*=".gov.in"]
+{
+    background-color: burlywood;
+}
+a[href*=".ac.in"]
+{
+    background-color: cornflowerblue;
+}
