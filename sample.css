@@ -2,12 +2,26 @@ h1{
     background-color: chocolate;
     color: black;
     width: 50%;
+    font-size: 50px;
 }
-div{
-    display: block;
+h1,footer{
+    background: chocolate;
+    background: -webkit-linear-gradient(chocolate,rgb(112, 112, 211));
+    background: -moz-linear-gradient(chocolate,rgb(112, 112, 211));
+    background: -ms-linear-gradient(chocolate,rgb(112, 112, 211));
+    background: -olinear-gradient(chocolate,rgb(112, 112, 211));
+
+}
+footer{
+    width: 50%;
+    font-size: 30px;
+}
+.half{
+    display:block;
     background-color: darkgoldenrod;
-    width:50%;
+    width:40%;
 }
+
 h2{
     background-color: brown;
 }
