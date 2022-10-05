@@ -28,3 +28,24 @@ h2{
 ul{
     list-style-type: square;
 }
+div{
+    background-color: darkseagreen;
+    width: 40%;
+    border-radius: 5px;
+    font-size: 15px;
+}
+div:hover {
+    background-color: darksalmon;
+    width: 45%;
+    border-radius: 30px;
+    font-size: 20px;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    transition-delay: .2s;
+
+}
+div:active{
+    background-color: darkslateblue;
+    width: 45%;
+    
+}
