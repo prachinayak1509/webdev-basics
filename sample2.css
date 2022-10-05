@@ -1,0 +1,28 @@
+div{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    height: 100px;
+    display: inline-block;
+    transition: .1s ease;
+}
+div:focus{
+    background-color: aquamarine;
+}
+div:hover{
+    width: 120px;
+    background-color: lightcoral;
+}
+.animate{
+    background-color: darkseagreen;
+    opacity: 0.4;
+    transition-duration: 1s;
+}
+.animate:hover{
+    width: 150px;
+    height: 150px;
+    transform: rotate(360deg);
+    background-color: mediumpurple;
+}
