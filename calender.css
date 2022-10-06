@@ -1,0 +1,28 @@
+table.cal{
+    background-color: rgba(235, 85, 165, 0.612);
+    border: 8px solid black;
+    border-spacing:0;
+    border-radius: 0 0 10px 10px;
+}
+tr:nth-child(odd){
+    background-color: floralwhite;
+}
+tr:nth-child(even)
+{
+    background-color: plum;
+}
+th{
+    border-spacing: 5px;
+    border:5px solid black;
+}
+h1{
+    font-size: 60px;
+}
+span{
+    background-color: darkseagreen;
+    display: block;
+    visibility: hidden;
+}
+td:hover>span{
+    visibility: visible;
+}
