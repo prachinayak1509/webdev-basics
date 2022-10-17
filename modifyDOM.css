@@ -1,0 +1,15 @@
+button{
+    background-color: cornflowerblue;
+    border: 5px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    font-size: 35px;
+    background-color: cadetblue;
+    width: 50%;
+    border: 5px solid blue;
+}
+h1{
+    color:blue;
+}
