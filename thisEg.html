@@ -3,9 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <title>"this" example</title>
+        <script src="./thisEg.js"></script>
     </head>
     <body>
         <img src="https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature.jpg?sfvrsn=64942d53_4" alt="An image of multiple fuits" onclick="console.log(this.alt)";>
-   <div onclick="console.log(this.innerHTML);">Checking out this div</div>
+   <hr>
+        <div onclick="console.log(this.innerHTML);">Checking out this div</div>
+        <hr>
+   <img src="https://post.healthline.com/wp-content/uploads/2020/08/fruits-and-vegetables-thumb.jpg" alt="An image of vegetables" id="ID-1" onclick="displayId(this)";>
+  <hr>
+   <div id="ID-2" onclick="displayId(this);">Another div</div>
     </body>
 </html>
