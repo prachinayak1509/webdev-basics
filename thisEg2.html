@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Second example of "this"</title>
+        <script src="./thisEg2.js"></script>
+        <link rel="stylesheet" href="./thisEg2.css">
+    </head>
+    <body>
+        <p id="message">some text</p>
+        <img class="img" src="https://image.shutterstock.com/image-photo/beautiful-sunset-tropical-beach-palm-260nw-1716193708.jpg" alt="A sunset by beach" onmouseover="showProperties(this)" onmouseleave="document.getElementById('message').innerHTML='hover over an image';">
+        <img class="img" src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_3x2.jpg" alt="A cat" onmouseover="showProperties(this)" onmouseleave="document.getElementById('message').innerHTML='hover over an image'">
+        <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg" alt="moon" onmouseover="showProperties(this)" onmouseleave="document.getElementById('message').innerHTML='hover over an image'">
+    </body>
+</html>
