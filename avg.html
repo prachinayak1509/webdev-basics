@@ -10,10 +10,13 @@
         <script>
             var grade=[2,4,3,6];
             var sum=0,i;
-            for(i=0;i<grade.length;i++){
+            if(grade.length>0)
+            {
+                for(i=0;i<grade.length;i++){
                 sum+=grade[i];
             }
             document.write(sum/grade.length)
+        }
         </script>
     </body>
 </html>
