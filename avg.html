@@ -8,14 +8,19 @@
     </head>
     <body>
         <script>
-            var grade=[2,4,3,6];
+            var grade=[2,4, ,6, ,8];
             var sum=0,i;
+            var count =0;
             if(grade.length>0)
             {
                 for(i=0;i<grade.length;i++){
+                    if(grade[i]!=undefined)
+                    {
                 sum+=grade[i];
+                count=count +1;
+                    }
             }
-            document.write(sum/grade.length)
+            document.write(sum/count);
         }
         else {
             document.write("average could not be found");
