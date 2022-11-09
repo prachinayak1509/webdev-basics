@@ -4,5 +4,6 @@ function check(){
     if(email1.value!=email2.value)
     {
         alert("the emails must match!");
+        return false;
     }
 }

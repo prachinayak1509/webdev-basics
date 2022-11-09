@@ -9,7 +9,7 @@
     <form>
         <label>Email:<input type="email" name="email1" id="email_addr" value="me@me.com" required></label><br/>
         <label>Repeat email:<input type="email" name="email2" id="email_repeat" required onchange="check()"></label><br/>
-        <input type="submit" value="confirm emails">
+        <input type="submit" value="confirm emails" onclick="return check();">
     </form>
 </body>
 </html>
