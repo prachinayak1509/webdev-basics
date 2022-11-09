@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            form verfication
+        </title>
+        <script src="./formVerif.js"></script>
+    </head>
+    <body>
+        <form>
+            <label for="fname">First name</label>
+            <input type="text" name="fname" value="prachi"><br/>
+            <label for="lname">Last name</label>
+            <input type="text" name="lname" value="Nayak"><br/>
+            <label for="yesNick">Nickname?</label>
+            <input type="checkbox" id="yesNick" value="yes" name="yesNick" onclick="NicknameFunction()"><br/>
+            <div id="nick">
+                <label for="nickname">Nickanme</label>
+                <input type="text" name="nickname" id="nickname"><br/>
+            </div>
+            <input type="submit" value="verify">
+        </form>
+    </body>
+</html>
