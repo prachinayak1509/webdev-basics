@@ -1,0 +1,46 @@
+nav a{
+   box-sizing: border-box;
+   display: inline-block;
+   text-decoration: none;
+   margin: 1% 5% 1% 1%;
+   border-radius: 5px;
+   background-color: burlywood;
+   font-size: 150%;
+   padding: 1% 2%;
+
+
+}
+nav{
+    background-color:rgb(130, 130, 181);
+}
+@media all and (min-width:900px)
+{
+   nav{
+    box-sizing: border-box;
+    border: 5px solid black;
+    display: inline-block;
+    height: 100vh;
+    min-width: 125px;
+    margin-right: 15px;
+    background-color: rgb(36, 115, 117);
+    width:20%;
+    overflow: auto;
+}
+   
+nav a{
+    display: block;
+    line-height: 45px;
+    height: 45px;
+    color: aliceblue;
+    padding-left: 10px;
+    margin: 10px 10px 10px 5px;
+}
+div{
+    display: inline-block;
+    width: 70%;
+    height: 100vh;
+    overflow: auto;
+ 
+
+}
+}
